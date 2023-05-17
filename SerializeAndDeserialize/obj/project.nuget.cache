@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "m8M4muaZsqsqgfHHQZvQbt9d+6OTXT6Ub6Or/ns1IWf0sDzjdjfCwjmttp0G5V+KrHEQ3eI3+B9knHYh8CW2Sg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\valiu\\source\\repos\\C#\\Practical8WPF\\SerializeAndDeserialize\\SerializeAndDeserialize.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\valiu\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

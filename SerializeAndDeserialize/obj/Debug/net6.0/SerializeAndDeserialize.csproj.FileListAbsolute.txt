@@ -1,0 +1,12 @@
+C:\Users\valiu\source\repos\C#\Practical8WPF\SerializeAndDeserialize\bin\Debug\net6.0\SerializeAndDeserialize.deps.json
+C:\Users\valiu\source\repos\C#\Practical8WPF\SerializeAndDeserialize\bin\Debug\net6.0\SerializeAndDeserialize.dll
+C:\Users\valiu\source\repos\C#\Practical8WPF\SerializeAndDeserialize\bin\Debug\net6.0\SerializeAndDeserialize.pdb
+C:\Users\valiu\source\repos\C#\Practical8WPF\SerializeAndDeserialize\obj\Debug\net6.0\SerializeAndDeserialize.csproj.AssemblyReference.cache
+C:\Users\valiu\source\repos\C#\Practical8WPF\SerializeAndDeserialize\obj\Debug\net6.0\SerializeAndDeserialize.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\valiu\source\repos\C#\Practical8WPF\SerializeAndDeserialize\obj\Debug\net6.0\SerializeAndDeserialize.AssemblyInfoInputs.cache
+C:\Users\valiu\source\repos\C#\Practical8WPF\SerializeAndDeserialize\obj\Debug\net6.0\SerializeAndDeserialize.AssemblyInfo.cs
+C:\Users\valiu\source\repos\C#\Practical8WPF\SerializeAndDeserialize\obj\Debug\net6.0\SerializeAndDeserialize.csproj.CoreCompileInputs.cache
+C:\Users\valiu\source\repos\C#\Practical8WPF\SerializeAndDeserialize\obj\Debug\net6.0\SerializeAndDeserialize.dll
+C:\Users\valiu\source\repos\C#\Practical8WPF\SerializeAndDeserialize\obj\Debug\net6.0\refint\SerializeAndDeserialize.dll
+C:\Users\valiu\source\repos\C#\Practical8WPF\SerializeAndDeserialize\obj\Debug\net6.0\SerializeAndDeserialize.pdb
+C:\Users\valiu\source\repos\C#\Practical8WPF\SerializeAndDeserialize\obj\Debug\net6.0\ref\SerializeAndDeserialize.dll

@@ -1,0 +1,259 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\valiu\\source\\repos\\C#\\Practical8WPF\\Practical8WPF\\Practical8WPF.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\valiu\\source\\repos\\C#\\Practical8WPF\\CustomStyleLib\\CustomStyleLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\valiu\\source\\repos\\C#\\Practical8WPF\\CustomStyleLib\\CustomStyleLib.csproj",
+        "projectName": "CustomStyleLib",
+        "projectPath": "C:\\Users\\valiu\\source\\repos\\C#\\Practical8WPF\\CustomStyleLib\\CustomStyleLib.csproj",
+        "packagesPath": "C:\\Users\\valiu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\valiu\\source\\repos\\C#\\Practical8WPF\\CustomStyleLib\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\valiu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\valiu\\source\\repos\\C#\\Practical8WPF\\Practical8WPF\\Practical8WPF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\valiu\\source\\repos\\C#\\Practical8WPF\\Practical8WPF\\Practical8WPF.csproj",
+        "projectName": "Practical8WPF",
+        "projectPath": "C:\\Users\\valiu\\source\\repos\\C#\\Practical8WPF\\Practical8WPF\\Practical8WPF.csproj",
+        "packagesPath": "C:\\Users\\valiu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\valiu\\source\\repos\\C#\\Practical8WPF\\Practical8WPF\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\valiu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\valiu\\source\\repos\\C#\\Practical8WPF\\CustomStyleLib\\CustomStyleLib.csproj": {
+                "projectPath": "C:\\Users\\valiu\\source\\repos\\C#\\Practical8WPF\\CustomStyleLib\\CustomStyleLib.csproj"
+              },
+              "C:\\Users\\valiu\\source\\repos\\C#\\Practical8WPF\\SerializeAndDeserialize\\SerializeAndDeserialize.csproj": {
+                "projectPath": "C:\\Users\\valiu\\source\\repos\\C#\\Practical8WPF\\SerializeAndDeserialize\\SerializeAndDeserialize.csproj"
+              },
+              "C:\\Users\\valiu\\source\\repos\\C#\\Practical8WPF\\ThemeLib\\ThemeLib.csproj": {
+                "projectPath": "C:\\Users\\valiu\\source\\repos\\C#\\Practical8WPF\\ThemeLib\\ThemeLib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\valiu\\source\\repos\\C#\\Practical8WPF\\SerializeAndDeserialize\\SerializeAndDeserialize.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\valiu\\source\\repos\\C#\\Practical8WPF\\SerializeAndDeserialize\\SerializeAndDeserialize.csproj",
+        "projectName": "SerializeAndDeserialize",
+        "projectPath": "C:\\Users\\valiu\\source\\repos\\C#\\Practical8WPF\\SerializeAndDeserialize\\SerializeAndDeserialize.csproj",
+        "packagesPath": "C:\\Users\\valiu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\valiu\\source\\repos\\C#\\Practical8WPF\\SerializeAndDeserialize\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\valiu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\valiu\\source\\repos\\C#\\Practical8WPF\\ThemeLib\\ThemeLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\valiu\\source\\repos\\C#\\Practical8WPF\\ThemeLib\\ThemeLib.csproj",
+        "projectName": "ThemeLib",
+        "projectPath": "C:\\Users\\valiu\\source\\repos\\C#\\Practical8WPF\\ThemeLib\\ThemeLib.csproj",
+        "packagesPath": "C:\\Users\\valiu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\valiu\\source\\repos\\C#\\Practical8WPF\\ThemeLib\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\valiu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

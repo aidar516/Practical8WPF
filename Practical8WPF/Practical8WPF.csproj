@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="file.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes" Version="4.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CustomStyleLib\CustomStyleLib.csproj" />
+    <ProjectReference Include="..\SerializeAndDeserialize\SerializeAndDeserialize.csproj" />
+    <ProjectReference Include="..\ThemeLib\ThemeLib.csproj" />
+  </ItemGroup>
+
+</Project>
