@@ -3,5 +3,6 @@
     <Style x:Key="TextBoxStyle" TargetType="TextBox">
         <Setter Property="FontSize" Value="20"/>
         <Setter Property="Foreground" Value="DarkMagenta"/>
+        <Setter Property="FontFamily" Value="Algerian"/>
     </Style>
 </ResourceDictionary>
