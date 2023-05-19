@@ -25,8 +25,6 @@ C:\Users\valiu\source\repos\C#\Practical8WPF\Practical8WPF\obj\Debug\net6.0-wind
 C:\Users\valiu\source\repos\C#\Practical8WPF\Practical8WPF\obj\Debug\net6.0-windows\Practical8WPF.pdb
 C:\Users\valiu\source\repos\C#\Practical8WPF\Practical8WPF\obj\Debug\net6.0-windows\Practical8WPF.genruntimeconfig.cache
 C:\Users\valiu\source\repos\C#\Practical8WPF\Practical8WPF\obj\Debug\net6.0-windows\ref\Practical8WPF.dll
-C:\Users\valiu\source\repos\C#\Practical8WPF\Practical8WPF\bin\Debug\net6.0-windows\ThemeLib.dll
-C:\Users\valiu\source\repos\C#\Practical8WPF\Practical8WPF\bin\Debug\net6.0-windows\ThemeLib.pdb
 C:\Users\valiu\source\repos\C#\Practical8WPF\Practical8WPF\bin\Debug\net6.0-windows\MaterialDesignColors.dll
 C:\Users\valiu\source\repos\C#\Practical8WPF\Practical8WPF\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
 C:\Users\valiu\source\repos\C#\Practical8WPF\Practical8WPF\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll

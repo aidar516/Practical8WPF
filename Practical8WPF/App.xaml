@@ -7,8 +7,7 @@
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="pack://application:,,,/CustomStyleLib;component/Dictionary1.xaml"/>
-                <ResourceDictionary Source="pack://application:,,,/ThemeLib;component/DictionaryTheme.xaml"/>
-                </ResourceDictionary.MergedDictionaries>
+            </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

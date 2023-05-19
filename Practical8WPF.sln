@@ -9,8 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerializeAndDeserialize", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomStyleLib", "CustomStyleLib\CustomStyleLib.csproj", "{F9565022-7878-4DD8-AE8B-950C18EE36CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThemeLib", "ThemeLib\ThemeLib.csproj", "{20CE3DC1-7356-479D-8131-1DD9288A83A3}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,10 +27,6 @@ Global
 		{F9565022-7878-4DD8-AE8B-950C18EE36CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9565022-7878-4DD8-AE8B-950C18EE36CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9565022-7878-4DD8-AE8B-950C18EE36CD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{20CE3DC1-7356-479D-8131-1DD9288A83A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{20CE3DC1-7356-479D-8131-1DD9288A83A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{20CE3DC1-7356-479D-8131-1DD9288A83A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{20CE3DC1-7356-479D-8131-1DD9288A83A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -18,7 +18,6 @@
   <ItemGroup>
     <ProjectReference Include="..\CustomStyleLib\CustomStyleLib.csproj" />
     <ProjectReference Include="..\SerializeAndDeserialize\SerializeAndDeserialize.csproj" />
-    <ProjectReference Include="..\ThemeLib\ThemeLib.csproj" />
   </ItemGroup>
 
 </Project>

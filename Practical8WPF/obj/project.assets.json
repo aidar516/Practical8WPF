@@ -89,19 +89,6 @@
         "runtime": {
           "bin/placeholder/SerializeAndDeserialize.dll": {}
         }
-      },
-      "ThemeLib/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/ThemeLib.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ThemeLib.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.WindowsDesktop.App.WPF"
-        ]
       }
     }
   },
@@ -235,19 +222,13 @@
       "type": "project",
       "path": "../SerializeAndDeserialize/SerializeAndDeserialize.csproj",
       "msbuildProject": "../SerializeAndDeserialize/SerializeAndDeserialize.csproj"
-    },
-    "ThemeLib/1.0.0": {
-      "type": "project",
-      "path": "../ThemeLib/ThemeLib.csproj",
-      "msbuildProject": "../ThemeLib/ThemeLib.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
       "CustomStyleLib >= 1.0.0",
       "MaterialDesignThemes >= 4.9.0",
-      "SerializeAndDeserialize >= 1.0.0",
-      "ThemeLib >= 1.0.0"
+      "SerializeAndDeserialize >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -282,9 +263,6 @@
             },
             "C:\\Users\\valiu\\source\\repos\\C#\\Practical8WPF\\SerializeAndDeserialize\\SerializeAndDeserialize.csproj": {
               "projectPath": "C:\\Users\\valiu\\source\\repos\\C#\\Practical8WPF\\SerializeAndDeserialize\\SerializeAndDeserialize.csproj"
-            },
-            "C:\\Users\\valiu\\source\\repos\\C#\\Practical8WPF\\ThemeLib\\ThemeLib.csproj": {
-              "projectPath": "C:\\Users\\valiu\\source\\repos\\C#\\Practical8WPF\\ThemeLib\\ThemeLib.csproj"
             }
           }
         }

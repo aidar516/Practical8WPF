@@ -10,8 +10,7 @@
         "dependencies": {
           "CustomStyleLib": "1.0.0",
           "MaterialDesignThemes": "4.9.0",
-          "SerializeAndDeserialize": "1.0.0",
-          "ThemeLib": "1.0.0"
+          "SerializeAndDeserialize": "1.0.0"
         },
         "runtime": {
           "Practical8WPF.dll": {}
@@ -65,11 +64,6 @@
         "runtime": {
           "SerializeAndDeserialize.dll": {}
         }
-      },
-      "ThemeLib/1.0.0": {
-        "runtime": {
-          "ThemeLib.dll": {}
-        }
       }
     }
   },
@@ -113,11 +107,6 @@
       "sha512": ""
     },
     "SerializeAndDeserialize/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "ThemeLib/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

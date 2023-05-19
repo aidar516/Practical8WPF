@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
+﻿using System.IO;
 using System.Windows;
-using System.Windows.Controls;
-using Newtonsoft.Json;
 using SerializeAndDeserialize;
 
 namespace Practical8WPF
@@ -16,39 +12,27 @@ namespace Practical8WPF
             InitializeComponent();
         }
 
-        private void Button_Click_2(object sender, RoutedEventArgs e)
-        {
-            var uri = new Uri(@"/ThemeLib/Themes/BlackTheme.xaml", UriKind.Relative);
-            ResourceDictionary? resourceDictionary = Application.LoadComponent(uri) as ResourceDictionary;
-            Application.Current.Resources.Clear();
-            Application.Current.Resources.MergedDictionaries.Add(resourceDictionary);
-        }
-
-        private void Button_Click_3(object sender, RoutedEventArgs e)
-        {
-            var uri = new Uri(@"/ThemeLib/Themes/WhiteTheme.xaml", UriKind.Relative);
-            ResourceDictionary? resourceDictionary = Application.LoadComponent(uri) as ResourceDictionary;
-            Application.Current.Resources.Clear();
-            Application.Current.Resources.MergedDictionaries.Add(resourceDictionary);
-        }
-
         private async void SaveData_Click(object sender, RoutedEventArgs e)
         {
-            var person = new Person
-            {
-                Name = "Виктор",
-                Surname = "Петров",
-                Age = 50
-            };
+            var data = new { Text = TB.Text };
 
-            Class1.SerializeData(person, "person.json");
-            MessageBox.Show("Сериализация выполнена успешно!");
+            Class1.SerializeData(data, "data.json");
+
+            MessageBox.Show("Текст сохранен в файле data.json");
         }
 
         private void LoadData_Click(object sender, RoutedEventArgs e)
         {
-            var deserializedPerson = Class1.DeserializeData<Person>("person.json");
-            MessageBox.Show($"Имя: {deserializedPerson.Name}\nФамилия: {deserializedPerson.Surname} \nВозраст: {deserializedPerson.Age}");
+            if (File.Exists("data.json"))
+            {
+                var data = Class1.DeserializeData<dynamic>("data.json");
+                TB2.Text = data.Text;
+            }
+            else
+            {
+                MessageBox.Show("Файл data.json не найден");
+            }
+
         }
     }
 }

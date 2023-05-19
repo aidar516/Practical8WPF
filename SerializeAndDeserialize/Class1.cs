@@ -1,4 +1,4 @@
-﻿using System.Text.Json;
+﻿using Newtonsoft.Json;
 
 namespace SerializeAndDeserialize
 {
@@ -6,14 +6,14 @@ namespace SerializeAndDeserialize
     {
         public static void SerializeData<T>(T data, string filePath)
         {
-            string jsonString = JsonSerializer.Serialize(data);
+            string jsonString = JsonConvert.SerializeObject(data);
             File.WriteAllText(filePath, jsonString);
         }
 
         public static T DeserializeData<T>(string filePath)
         {
             string jsonString = File.ReadAllText(filePath);
-            return JsonSerializer.Deserialize<T>(jsonString);
+            return JsonConvert.DeserializeObject<T>(jsonString);
         }
     }
 }

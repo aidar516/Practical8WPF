@@ -5,7 +5,6 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Practical8WPF"
         mc:Ignorable="d"
-        Style="{DynamicResource WindowStyleBlack}"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
@@ -30,10 +29,10 @@
             <ListViewItem>Text</ListViewItem>
             <ListViewItem>Text2</ListViewItem>
         </ListBox>
-        <TextBox Text="Test" Grid.Row="1" Grid.Column="2" VerticalAlignment="Center" Style="{DynamicResource TextBoxStyle}"/>
-        <Button Style="{DynamicResource ButtonStyle}" Content="Save" x:Name="SaveData" Grid.Row="1" Grid.Column="2" VerticalAlignment="Top" Click="SaveData_Click"/>
-        <Button Style="{DynamicResource ButtonStyle}" Content="Load" x:Name="LoadData" Grid.Row="1" Grid.Column="2" VerticalAlignment="Bottom" Click="LoadData_Click"/>
-        <Button Style="{DynamicResource ButtonStyle1}" Grid.Row="2" Click="Button_Click_3">Темная тема</Button>
-        <Button Style="{DynamicResource ButtonStyle1}" Grid.Row="2" Grid.Column="1" Click="Button_Click_2">Светлая тема</Button>
+        <TextBox x:Name="TB" Grid.Row="1" Grid.Column="2" VerticalAlignment="Center" Style="{DynamicResource TextBoxStyle}"/>
+        <TextBox x:Name="TB2"  Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Style="{DynamicResource TextBoxStyle}"/>
+        <Button Style="{DynamicResource ButtonStyle}" Content="Save" x:Name="SaveData" Grid.Row="2" Grid.Column="2" Click="SaveData_Click"/>
+        <Button Style="{DynamicResource ButtonStyle}" Content="Load" x:Name="LoadData" Grid.Row="2" Grid.Column="1" Click="LoadData_Click"/>
+        <Button Style="{DynamicResource ButtonStyle1}" Grid.Row="2">Button Style1</Button>
     </Grid>
 </Window>
